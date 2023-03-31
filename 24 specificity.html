@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* using !important is a bad practice
+        p{
+            color:blue !important;
+        } */
+        
+        /* there are so many colors applying for HEY ALL ....in this case color:aqua will be considered
+        but if there are so many properties are given like class, id,etc and each one have different properties like class is changing color
+        id is changing width so each property will be considered
+        but if properties are coinciding in that case we considered specificity criteria */
+        p{
+            color:blue ;
+        }
+
+        .para-sf{
+            color:orange;
+        }
+
+        #black-para{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <p class="para-sf" id="black-para" style="color:aqua">HEY ALL</p>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Linus Torvalds</title>
+    <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1043089742348173331/1058066485551054968/Linus_Bhaya.jpeg">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+
+        }
+        aside{
+            width:40%;
+            padding-left: 0.5rem;
+            margin-left: 0.5rem;
+            float:right;
+            box-shadow: insert 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Linus Torvalds</h1>
+    <p>The creator of Linux</p>
+    <!--We can directly go to resources by using this-->
+    <a href="#resources">Go to resources</a>
+
+
+    <!--we can also use nav tag here-->
+    <nav>
+        <a href="#resources">Go to resources</a>
+        <a href="#bio">Go to biography</a>
+        <a href="#ach">Go to Achievements</a>
+
+    </nav>
+    
+    <figure>
+        <img src = "https://media.discordapp.net/attachments/1043089742348173331/1058066485551054968/Linus_Bhaya.jpeg"
+       />
+       <br>
+        <figurecaption>A photograph of linus</figurecaption>
+    </figure>
+
+    <!--<Secton> tag just defines section in the document-->
+    <section>
+        <h2 id="bio">Biography</h2>
+        <p>Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the Linux kernel, 
+        which is the kernel for a number of operating systems. He also created the version control system Git. 
+        Torvalds was born on December 28, 1969 in Helsinki, Finland. He studied computer science at the University of Helsinki, 
+        and he developed the Linux kernel as a student project in 1991. Since then, the Linux kernel has become one of the most widely 
+        used kernels in the world, powering everything from smartphones to supercomputers</p>
+    </section>
+    
+    <aside>
+        so this is just a biography of the developer of linux
+    </aside>
+    <h3 id="ach">Achievements</h3>
+    <ul>
+        <!-- Strong is for bold -->
+        <li><strong>1991</strong> - Created the Linux kernel and the version control system Git</li>
+        <li><strong>2004</strong> - Named one of the "100 Most Influential People in the World" by Time magazine in 2004</li>
+        <li><strong>2005</strong> - Received an honorary doctorate from the University of Helsinki in 2010</li>
+        <li><strong>2010</strong> - Received the 2010 Millennium Technology Prize and the 2012 Free Software Foundation's Award for the Advancement of Free Software</li>
+        <li><strong>2013</strong> - Inducted into the Internet Hall of Fame in 2013 for his contributions to the development of the Linux kernel and the creation of Git
+        </li>
+        <li><strong>2014</strong> - Inducted into the Hall of Fame of the Computer History Museum in 2014</li>
+        <li><strong>2015</strong> - Received the 2015 IEEE Computer Society Computer Pioneer Award</li>
+        <li><strong>2019</strong> - Received the 2019 ACM SIGOPS Hall of Fame Award</li>
+        <li><strong>2021</strong> - Awarded the Takeda Foundation's 2021 Takeda Award for Social Contribution, which recognizes individuals who have made significant contributions to society through technology
+        </li>
+        </ul>
+    
+        <!-- when we use content/quote from other source we use blockquote for short quotations we can use "<q>" ....<cite> defines 
+            the title of the creative work-->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        <p>"One of the most intellectual people in the world"</p>
+        <cite>
+            -- Time Magazine 
+            <a href = "https://www.thecodehelp.in">The Famous people</a>
+        </cite>
+        
+    </blockquote>
+    
+
+    <section>
+        <!--WE've to add id for directly reaching to the resources-->
+        <h4 id="resources">Resources</h4>
+        <p>Learn more about Linus Torvalds and his work:</p>
+        <ul>
+           <li><a href = "https://en.wikipedia.org/wiki/Linus_Torvalds">Wikipedia page on Linus Torvalds</a></li>
+           <li><a href="https://www.internethalloffame.org/inductee/linus-torvalds/">Linus personal web page</a></li>
+            <li><a href = "https://github.com/torvalds">The Linux Kernel Archives</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>this is footer</p>
+    </footer>
+    
+    
+    
+</body>
+</html>
